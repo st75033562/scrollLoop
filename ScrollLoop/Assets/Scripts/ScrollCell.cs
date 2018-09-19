@@ -23,6 +23,10 @@ public class ScrollCell : MonoBehaviour {
         get { return controller; }
     }
 
+    public object callObj {
+        get { return controller.callObj; }
+    }
+
     public void init(ScrollLoopController controller , System.Object data, int index) {
         this.controller = controller;
         dataObject = data;
